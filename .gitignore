@@ -10,3 +10,10 @@ node_modules/
 .next/
 .env*.local
 .DS_Store
+# IDE
+.vscode/
+.idea/
+
+# TypeScript
+next-env.d.ts
+*.tsbuildinfo
