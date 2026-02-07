@@ -17,8 +17,8 @@ A modern, responsive portfolio website built with Next.js, React, and Tailwind C
 
 ##  Built With
 
-- [Next.js] - React framework for production
-- [React] - JavaScript library for building user interfaces
-- [TypeScript] - Typed superset of JavaScript
-- [Tailwind CSS] - Utility-first CSS framework
-- [Vercel] - Deployment platform
+- [Next.js](https://nextjs.org/) - React framework for production
+- [React](https://reactjs.org/) - JavaScript library for building user interfaces
+- [TypeScript](https://www.typescriptlang.org/) - Typed superset of JavaScript
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [Vercel](https://vercel.com/) - Deployment platform
