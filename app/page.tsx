@@ -40,7 +40,7 @@ export default function Portfolio() {
   ]
 
   const skills = {
-    'Programming Languages': ['Python', 'JavaScript'],
+    'Programming Languages': ['Python', 'JavaScript', 'TypeScript'],
     'Web Development': ['HTML5', 'CSS3', 'React.js', 'Node.js', 'Express'],
     'Core CS': ['Data Structures', 'Algorithms', 'Database Management', 'Git'],
     'Other': ['Problem Solving', 'Project Management', 'Leadership', 'Communication'],
