@@ -41,7 +41,10 @@ export default function Portfolio() {
 
   const skills = {
     'Programming Languages': ['Python', 'JavaScript', 'TypeScript'],
-    'Web Development': ['HTML5', 'CSS3', 'React.js', 'Node.js', 'Express'],
+    'Frontend': ['HTML5', 'CSS3', 'Tailwind CSS', 'React.js', 'Vue.js', 'Next.js', 'Chart.js'],
+    'Backend': ['Node.js', 'Express', 'Django', 'Flask', 'FastAPI', 'MySQL'],
+    'Data Science & ML': ['NumPy', 'Pandas', 'Matplotlib', 'Seaborn'],
+    'Web3': ['Solidity'],
     'Core CS': ['Data Structures', 'Algorithms', 'Database Management', 'Git'],
     'Other': ['Problem Solving', 'Project Management', 'Leadership', 'Communication'],
   }
@@ -58,9 +61,8 @@ export default function Portfolio() {
                 <button
                   key={item}
                   onClick={() => scrollToSection(item)}
-                  className={`capitalize text-sm font-medium transition-colors hover:text-accent ${
-                    activeSection === item ? 'text-accent' : 'text-foreground'
-                  }`}
+                  className={`capitalize text-sm font-medium transition-colors hover:text-accent ${activeSection === item ? 'text-accent' : 'text-foreground'
+                    }`}
                 >
                   {item}
                 </button>
@@ -152,10 +154,10 @@ export default function Portfolio() {
                 Computer Science Student | AI/ML, Web3 Enthusiast | Aspiring Software Developer | Open Source Contributor
               </p>
               <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mb-6 lg:mb-8 mx-auto lg:mx-0">
-                First-year student at Medhavi Skills University passionate about building innovative solutions with AI, web development, and Web3 technologies.
+                Student at Medhavi Skills University passionate about building innovative solutions with AI, web development, and Web3 technologies.
               </p>
             </div>
-            
+
             <div className="relative flex-shrink-0">
               {/* Paperclip effect - subtle decoration */}
               <div className="absolute -top-4 -left-6 w-12 h-12 text-muted-foreground/40 transform -rotate-45">
@@ -164,7 +166,7 @@ export default function Portfolio() {
                   <path d="M10.5 1.5a2 2 0 0 0-2 2v14.5" />
                 </svg>
               </div>
-              
+
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-01-08%20at%2022.25.12-zu9h7OX74mVxN9cXqRh7bN8TdQdHdQ.jpeg"
                 alt="Abhiraj Singh"
@@ -172,7 +174,7 @@ export default function Portfolio() {
               />
             </div>
           </div>
-          
+
           <div className="flex gap-4 justify-center flex-wrap">
             <button
               onClick={() => scrollToSection('projects')}
@@ -195,12 +197,12 @@ export default function Portfolio() {
       <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-secondary/30">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl sm:text-5xl font-bold mb-12">About Me</h2>
-          
+
           <div className="space-y-6 text-lg text-muted-foreground">
             <p>
               I'm a driven computer science student with a strong passion for Artificial Intelligence, Machine Learning, and full-stack web development, with a focus on solving real-world problems through innovative technology.
             </p>
-            
+
             <p>
               As School Captain at Army Public School, I demonstrated leadership by coordinating school-wide events and representing student interests. I'm also committed to social responsibility through my volunteer work with the Stray Dogs Welfare Initiative, where I've coordinated vaccination drives and community education programs.
             </p>
@@ -238,7 +240,7 @@ export default function Portfolio() {
       <section id="projects" className="py-20 md:py-20 px-4 sm:px-6 lg:px-8 md:mt-0 mt-8">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl sm:text-5xl font-bold mb-12">Featured Projects</h2>
-          
+
           <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-8">
             {projects.map((project, index) => (
               <div
@@ -247,7 +249,7 @@ export default function Portfolio() {
               >
                 <h3 className="text-2xl font-bold mb-3 text-foreground">{project.title}</h3>
                 <p className="text-muted-foreground mb-6 flex-grow">{project.description}</p>
-                
+
                 <div className="mb-6">
                   <p className="text-sm font-semibold text-foreground mb-3">Tech Stack</p>
                   <div className="flex flex-wrap gap-2">
@@ -284,7 +286,7 @@ export default function Portfolio() {
       <section id="skills" className="py-20 px-4 sm:px-6 lg:px-8 bg-secondary/30">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl sm:text-5xl font-bold mb-12">Skills</h2>
-          
+
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {Object.entries(skills).map(([category, items]) => (
               <div key={category}>
@@ -309,7 +311,7 @@ export default function Portfolio() {
       <section id="education" className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl sm:text-5xl font-bold mb-12">Education</h2>
-          
+
           <div className="space-y-8">
             <div className="border-l-4 border-accent pl-6 pb-8">
               <div className="flex justify-between items-start mb-2">
@@ -317,7 +319,7 @@ export default function Portfolio() {
                   <h3 className="text-2xl font-bold text-foreground">B.Tech CSE (AI/ML)</h3>
                   <p className="text-lg text-accent font-semibold">Medhavi Skills University</p>
                 </div>
-                <span className="text-muted-foreground">2025 - 2029 (Semester 2)</span>
+                <span className="text-muted-foreground">2025 - 2029</span>
               </div>
               <p className="text-muted-foreground mb-4">Currently pursuing Bachelor of Technology in Computer Science and Engineering with specialization in Artificial Intelligence and Machine Learning</p>
               <div>
@@ -354,7 +356,7 @@ export default function Portfolio() {
           <p className="text-center text-muted-foreground text-lg mb-12 max-w-2xl mx-auto">
             I'm always interested in hearing about new projects and opportunities. Feel free to reach out!
           </p>
-          
+
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
             <a
               href="https://mail.google.com/mail/?view=cm&fs=1&to=itsabhiraj27@gmail.com"
@@ -393,7 +395,7 @@ export default function Portfolio() {
             <div>
               <p className="text-sm">© {currentYear} Abhiraj Singh. All rights reserved.</p>
             </div>
-            
+
             <div className="flex gap-4">
               <a
                 href="https://github.com/abhiraj75"
@@ -415,7 +417,7 @@ export default function Portfolio() {
               </a>
             </div>
           </div>
-          
+
           <div className="text-center text-sm text-primary-foreground/60">
             <p>Designed & Built with care | Portfolio of Abhiraj Singh</p>
           </div>
