@@ -151,10 +151,10 @@ export default function Portfolio() {
                 Abhiraj Singh
               </h1>
               <p className="text-lg sm:text-xl lg:text-2xl text-muted-foreground mb-4 lg:mb-6">
-                Computer Science Student | AI/ML, Web3 Enthusiast | Aspiring Software Developer | Open Source Contributor
+                Computer Science Student | Full Stack Developer | AI/ML, Web3 Enthusiast | Open Source Contributor
               </p>
               <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mb-6 lg:mb-8 mx-auto lg:mx-0">
-                Student at Medhavi Skills University passionate about building innovative solutions with AI, web development, and Web3 technologies.
+                Student at Medhavi Skills University building innovative solutions with AI, web development, and Web3 technologies.
               </p>
             </div>
 
