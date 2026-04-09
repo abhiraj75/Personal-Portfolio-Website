@@ -17,6 +17,13 @@ export default function Portfolio() {
 
   const projects = [
     {
+      title: 'Chain Lens — Bitcoin Analyzer',
+      description: 'A full-stack Bitcoin protocol tool that decodes raw transactions and block files into rich JSON reports, with SegWit parsing, address derivation, fee analysis, and an interactive dark-mode web visualizer.',
+      tech: ['Python', 'Flask', 'Bitcoin Protocol', 'SegWit'],
+      github: 'https://github.com/abhiraj75/Chain-Lens-Bitcoin',
+      link: 'https://github.com/abhiraj75/Chain-Lens-Bitcoin',
+    },
+    {
       title: 'Full-Stack Gaming Stats Dashboard',
       description: 'Built a full-stack web app with interactive charts to display live gaming statistics, trends, and search results using the RAWG API.',
       tech: ['Node.js', 'Express', 'JavaScript', 'Chart.js'],
@@ -36,6 +43,13 @@ export default function Portfolio() {
       tech: ['Solidity', 'React', 'Next.js', 'wagmi'],
       github: 'https://github.com/abhiraj75/web3-giftpicker-dapp',
       link: 'https://github.com/abhiraj75/web3-giftpicker-dapp',
+    },
+    {
+      title: 'Coin Smith — Bitcoin PSBT Builder',
+      description: 'A full-stack Bitcoin wallet tool that performs coin selection, fee estimation, and BIP-174 PSBT construction with four selection strategies, two-pass fee math, and an interactive web visualizer.',
+      tech: ['Python', 'Flask', 'Bitcoin Protocol', 'BIP-174'],
+      github: 'https://github.com/abhiraj75/Coin-Smith-Bitcoin',
+      link: 'https://github.com/abhiraj75/Coin-Smith-Bitcoin',
     },
   ]
 
@@ -204,7 +218,7 @@ export default function Portfolio() {
             </p>
 
             <p>
-              As School Captain at Army Public School, I demonstrated leadership by coordinating school-wide events and representing student interests. I'm also committed to social responsibility through my volunteer work with the Stray Dogs Welfare Initiative, where I've coordinated vaccination drives and community education programs.
+              As former School Captain at Army Public School, I demonstrated leadership by coordinating school-wide events and representing student interests. I'm also committed to social responsibility through my volunteer work with the Stray Dogs Welfare Initiative, where I've coordinated vaccination drives and community education programs.
             </p>
 
             <p>
