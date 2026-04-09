@@ -17,7 +17,7 @@ export default function Portfolio() {
 
   const projects = [
     {
-      title: 'Chain Lens — Bitcoin Analyzer',
+      title: 'Chain Lens - Bitcoin Analyzer',
       description: 'A full-stack Bitcoin protocol tool that decodes raw transactions and block files into rich JSON reports, with SegWit parsing, address derivation, fee analysis, and an interactive dark-mode web visualizer.',
       tech: ['Python', 'Flask', 'Bitcoin Protocol', 'SegWit'],
       github: 'https://github.com/abhiraj75/Chain-Lens-Bitcoin',
@@ -45,7 +45,7 @@ export default function Portfolio() {
       link: 'https://github.com/abhiraj75/web3-giftpicker-dapp',
     },
     {
-      title: 'Coin Smith — Bitcoin PSBT Builder',
+      title: 'Coin Smith - Bitcoin PSBT Builder',
       description: 'A full-stack Bitcoin wallet tool that performs coin selection, fee estimation, and BIP-174 PSBT construction with four selection strategies, two-pass fee math, and an interactive web visualizer.',
       tech: ['Python', 'Flask', 'Bitcoin Protocol', 'BIP-174'],
       github: 'https://github.com/abhiraj75/Coin-Smith-Bitcoin',
