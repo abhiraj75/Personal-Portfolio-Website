@@ -17,6 +17,13 @@ export default function Portfolio() {
 
   const projects = [
     {
+      title: 'DebugX - AI Coding Platform',
+      description: 'A full-stack AI-powered coding practice platform with real-time code execution, AI-powered feedback, step-by-step code visualization, structured learning paths, and progress tracking with heatmaps and streaks.',
+      tech: ['Next.js', 'TypeScript', 'Python', 'FastAPI', 'MySQL'],
+      github: 'https://github.com/abhiraj75/DebugX',
+      link: 'https://debugxfrontend.vercel.app',
+    },
+    {
       title: 'Chain Lens - Bitcoin Analyzer',
       description: 'A full-stack Bitcoin protocol tool that decodes raw transactions and block files into rich JSON reports, with SegWit parsing, address derivation, fee analysis, and an interactive dark-mode web visualizer.',
       tech: ['Python', 'Flask', 'Bitcoin Protocol', 'SegWit'],
