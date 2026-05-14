@@ -175,7 +175,7 @@ export default function Portfolio() {
                 Computer Science Student | Full Stack Developer | AI/ML, Web3 Enthusiast | Open Source Contributor
               </p>
               <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mb-6 lg:mb-8 mx-auto lg:mx-0">
-                Student at Medhavi Skills University building innovative solutions with AI, web development, and Web3 technologies.
+                Student at Polaris School Of Technology building innovative solutions with AI, web development, and Web3 technologies.
               </p>
             </div>
 
@@ -338,7 +338,7 @@ export default function Portfolio() {
               <div className="flex justify-between items-start mb-2">
                 <div>
                   <h3 className="text-2xl font-bold text-foreground">B.Tech CSE (AI/ML)</h3>
-                  <p className="text-lg text-accent font-semibold">Medhavi Skills University</p>
+                  <p className="text-lg text-accent font-semibold">Polaris School Of Technology</p>
                 </div>
                 <span className="text-muted-foreground">2025 - 2029</span>
               </div>
