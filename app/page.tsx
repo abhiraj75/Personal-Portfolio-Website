@@ -38,6 +38,13 @@ export default function Portfolio() {
       link: 'https://github.com/abhiraj75/Chain-Lens-Bitcoin',
     },
     {
+      title: 'BTC Next-Hour Predictor',
+      description: 'A Bitcoin price forecasting dashboard that predicts the next-hour range using GBM, FIGARCH volatility estimation, Student-t shocks, and 10,000 Monte Carlo simulations.',
+      tech: ['Python', 'Streamlit', 'Monte Carlo', 'FIGARCH', 'Binance API'],
+      github: 'https://github.com/abhiraj75/BTC-predictor',
+      link: 'https://btc-predictor-abhiraj.streamlit.app/',
+    },
+    {
       title: 'Full-Stack Gaming Stats Dashboard',
       description: 'Built a full-stack web app with interactive charts to display live gaming statistics, trends, and search results using the RAWG API.',
       tech: ['Node.js', 'Express', 'JavaScript', 'Chart.js'],
@@ -179,7 +186,7 @@ export default function Portfolio() {
                 Abhiraj Singh
               </h1>
               <p className="text-lg sm:text-xl lg:text-2xl text-muted-foreground mb-4 lg:mb-6">
-                Computer Science Student | Full Stack Developer | AI/ML, Web3 Enthusiast | Open Source Contributor
+                Full Stack Developer | AI/ML, Web3 Enthusiast | Open Source Contributor
               </p>
               <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mb-6 lg:mb-8 mx-auto lg:mx-0">
                 Student at Polaris School Of Technology building innovative solutions with AI, web development, and Web3 technologies.
@@ -284,9 +291,9 @@ export default function Portfolio() {
                 className="bg-card border border-border rounded-xl p-8 hover:shadow-lg transition-shadow hover:border-accent/50 flex flex-col"
               >
                 <h3 className="text-2xl font-bold mb-3 text-foreground">{project.title}</h3>
-                <p className="text-muted-foreground mb-6 flex-grow">{project.description}</p>
+                <p className="text-muted-foreground mb-6 lg:min-h-32">{project.description}</p>
 
-                <div className="mb-6">
+                <div className="mb-6 flex-grow">
                   <p className="text-sm font-semibold text-foreground mb-3">Tech Stack</p>
                   <div className="flex flex-wrap gap-2">
                     {project.tech.map((tech, i) => (
