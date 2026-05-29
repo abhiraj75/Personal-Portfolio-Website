@@ -56,7 +56,7 @@ export default function Portfolio() {
       description: 'Built a retro-style arcade survival game with progressive difficulty, collision detection, and persistent high scores using LocalStorage.',
       tech: ['HTML5', 'CSS3', 'JavaScript', 'Service Workers'],
       github: 'https://github.com/abhiraj75',
-      link: 'https://cyberdodge.netlify.app',
+      link: 'https://abhiraj-dodge.netlify.app/',
     },
     {
       title: 'Gift Picker Lottery DApp',
