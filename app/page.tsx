@@ -228,15 +228,19 @@ export default function Portfolio() {
 
           <div className="space-y-6 text-lg text-muted-foreground">
             <p>
-              I'm a driven computer science student with a strong passion for Artificial Intelligence, Machine Learning, and full-stack web development, with a focus on solving real-world problems through innovative technology.
+              I am a B.Tech Computer Science (AI/ML) student, and I spend most of my time building across AI/ML, full-stack web, and open source. I deliberately pick unfamiliar domains because I love challenging myself, and that is where I learn fastest.
             </p>
 
             <p>
-              As former School Captain at Army Public School, I demonstrated leadership by coordinating school-wide events and representing student interests. I'm also committed to social responsibility through my volunteer work with the Stray Dogs Welfare Initiative, where I've coordinated vaccination drives and community education programs.
+              Open source is where I do most of my real learning. I have contributed to established international organisations, working on bug fixes, new features, refactoring, testing infrastructure, type systems, and language migrations. Beyond the code, I enjoy the workflow: finding the right issue, engaging with maintainers, and shipping something a real community uses.
             </p>
 
             <p>
-              I'm skilled at crafting intuitive frontend experiences and currently diving deeper into backend systems and server-side architecture. My foundation in full-stack development continues to grow with each project, coupled with an increasing interest in emerging technologies like Web3 and blockchain.
+              Before Polaris, I served as School Captain at Army Public School, Barrackpore, which taught me that real leadership is about consistency and earning trust, not titles.
+            </p>
+
+            <p>
+              Outside tech, I care about stray dog welfare and have organised vaccination drives in my community. I am interested in conversations about AI, open source, and using tech to solve problems that actually matter, so feel free to reach out.
             </p>
 
             <div className="pt-6">
@@ -248,15 +252,19 @@ export default function Portfolio() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-accent font-bold mt-1">•</span>
-                  <span>91% in Class XII (CBSE) with 97% in Computer Science</span>
+                  <span>Contributed to established international open-source organisations across features, refactors, tests, and migrations</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-accent font-bold mt-1">•</span>
-                  <span>School Captain and student council leader at Army Public School</span>
+                  <span>91% in Class XII (CBSE), with 97% in Computer Science</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-accent font-bold mt-1">•</span>
-                  <span>Active community organizer in animal welfare initiatives</span>
+                  <span>School Captain and student council leader at Army Public School, Barrackpore</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-accent font-bold mt-1">•</span>
+                  <span>Organised community vaccination drives for stray dog welfare</span>
                 </li>
               </ul>
             </div>
