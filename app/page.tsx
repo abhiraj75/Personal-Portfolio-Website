@@ -24,6 +24,13 @@ export default function Portfolio() {
       link: 'https://debugxfrontend.vercel.app',
     },
     {
+      title: '108 EMS - Voice PCR',
+      description: 'A voice-first patient care report prototype that turns Hinglish and English ambulance handoffs into editable structured PCR data with AI uncertainty flags, saved drafts, and JSON export.',
+      tech: ['React', 'TypeScript', 'FastAPI', 'Groq Whisper', 'Tailwind CSS'],
+      github: 'https://github.com/abhiraj75/ems_voice_pcr',
+      link: 'https://ems-voice-pcr.vercel.app',
+    },
+    {
       title: 'Chain Lens - Bitcoin Analyzer',
       description: 'A full-stack Bitcoin protocol tool that decodes raw transactions and block files into rich JSON reports, with SegWit parsing, address derivation, fee analysis, and an interactive dark-mode web visualizer.',
       tech: ['Python', 'Flask', 'Bitcoin Protocol', 'SegWit'],
