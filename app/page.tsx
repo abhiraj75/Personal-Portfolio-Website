@@ -77,8 +77,9 @@ export default function Portfolio() {
   const skills = {
     'Programming Languages': ['Python', 'JavaScript', 'TypeScript'],
     'Frontend': ['HTML5', 'CSS3', 'Tailwind CSS', 'React.js', 'Vue.js', 'Next.js', 'Chart.js'],
-    'Backend': ['Node.js', 'Express', 'Django', 'Flask', 'FastAPI', 'MySQL'],
-    'Data Science & ML': ['NumPy', 'Pandas', 'Matplotlib', 'Seaborn'],
+    'Backend': ['Node.js', 'Express', 'Django', 'Flask', 'FastAPI'],
+    'Database': ['MySQL', 'SQLite', 'PostgreSQL', 'MongoDB'],
+    'Data Science & ML': ['NumPy', 'Pandas', 'Matplotlib', 'Seaborn', 'Scikit-learn'],
     'Web3': ['Solidity'],
     'Core CS': ['Data Structures', 'Algorithms', 'Database Management', 'Git'],
     'Other': ['Problem Solving', 'Project Management', 'Leadership', 'Communication'],
