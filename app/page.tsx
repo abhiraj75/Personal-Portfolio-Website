@@ -31,11 +31,11 @@ export default function Portfolio() {
       link: 'https://ems-voice-pcr.vercel.app',
     },
     {
-      title: 'Chain Lens - Bitcoin Analyzer',
-      description: 'A full-stack Bitcoin protocol tool that decodes raw transactions and block files into rich JSON reports, with SegWit parsing, address derivation, fee analysis, and an interactive dark-mode web visualizer.',
-      tech: ['Python', 'Flask', 'Bitcoin Protocol', 'SegWit'],
-      github: 'https://github.com/abhiraj75/Chain-Lens-Bitcoin',
-      link: 'https://github.com/abhiraj75/Chain-Lens-Bitcoin',
+      title: 'SaaS Support Agent',
+      description: 'AI-powered customer support agent that routes customer questions to the right tool and maintains conversation context across turns.',
+      tech: ['FastAPI', 'PostgreSQL', 'Gemini', 'Docker'],
+      github: 'https://github.com/abhiraj75/SaaS_support_agent',
+      link: 'https://github.com/abhiraj75/SaaS_support_agent',
     },
     {
       title: 'BTC Next-Hour Predictor',
@@ -43,6 +43,13 @@ export default function Portfolio() {
       tech: ['Python', 'Streamlit', 'Monte Carlo', 'FIGARCH', 'Binance API'],
       github: 'https://github.com/abhiraj75/BTC-predictor',
       link: 'https://btc-predictor-abhiraj.streamlit.app/',
+    },
+    {
+      title: 'Chain Lens - Bitcoin Analyzer',
+      description: 'A full-stack Bitcoin protocol tool that decodes raw transactions and block files into rich JSON reports, with SegWit parsing, address derivation, fee analysis, and an interactive dark-mode web visualizer.',
+      tech: ['Python', 'Flask', 'Bitcoin Protocol', 'SegWit'],
+      github: 'https://github.com/abhiraj75/Chain-Lens-Bitcoin',
+      link: 'https://github.com/abhiraj75/Chain-Lens-Bitcoin',
     },
     {
       title: 'Full-Stack Gaming Stats Dashboard',
