@@ -31,10 +31,28 @@ const anton = Anton({
   display: 'swap',
 })
 
+const title = 'Abhiraj Singh — The Sunday Edition'
+const description =
+  'Full-stack developer working across AI, Bitcoin protocol internals, and open source. B.Tech CS student, Bengaluru.'
+
 export const metadata: Metadata = {
-  title: 'Abhiraj Singh — The Sunday Edition',
-  description:
-    'Full-stack developer working across AI, Bitcoin protocol internals, and open source. B.Tech CS student, Bengaluru.',
+  metadataBase: new URL('https://abhiraj-portfolio-website.vercel.app'),
+  title,
+  description,
+  openGraph: {
+    type: 'website',
+    url: '/',
+    siteName: 'Abhiraj Singh',
+    title,
+    description,
+    images: [{ url: '/og.png', width: 1200, height: 630, alt: title }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title,
+    description: 'Full-stack developer. AI, Bitcoin protocol internals, open source.',
+    images: ['/og.png'],
+  },
 }
 
 export default function RootLayout({

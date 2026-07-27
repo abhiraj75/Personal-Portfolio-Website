@@ -59,7 +59,7 @@ export function Masthead({ dateline }: { dateline: string }) {
           The
         </p>
         <h1
-          className="nameplate font-masthead font-black leading-[0.9] tracking-[-0.02em]"
+          className="nameplate font-masthead font-black leading-[0.9] tracking-[-0.02em] pb-[0.28em]"
           style={{ fontSize: 'clamp(2.75rem, 12.5vw, 11rem)' }}
         >
           Abhiraj Singh
