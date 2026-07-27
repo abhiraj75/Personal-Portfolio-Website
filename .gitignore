@@ -17,3 +17,7 @@ node_modules/
 # TypeScript
 next-env.d.ts
 *.tsbuildinfo
+
+# Test artifacts (screenshots land in the repo root; /public images are kept)
+.playwright-mcp/
+/*.png
