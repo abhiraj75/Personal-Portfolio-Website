@@ -146,8 +146,7 @@ export default function Page() {
                 <p className="mt-4 max-w-xl text-[17px] leading-snug text-ink-soft">
                   Abhiraj Singh, B.Tech Computer Science (AI/ML), Bengaluru. Builds full-stack
                   applications, AI tooling, and protocol-level software. Open to conversations
-                  about internships, collaboration, and open-source work. Replies to every
-                  message.
+                  about internships, collaboration, and open-source work.
                 </p>
 
                 <a
