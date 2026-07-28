@@ -20,13 +20,13 @@ export function Masthead({ dateline }: { dateline: string }) {
 
         SplitText.create('.nameplate', {
           type: 'chars',
-          mask: 'chars',
           autoSplit: true,
           onSplit: (self) =>
             tl.from(self.chars, {
-              yPercent: 115,
+              yPercent: 55,
+              opacity: 0,
               stagger: 0.026,
-              duration: 0.55,
+              duration: 0.5,
               ease: 'power3.out',
             }),
         })
