@@ -163,5 +163,5 @@ export const links = {
   email: 'itsabhiraj27@gmail.com',
   github: 'https://github.com/abhiraj75',
   linkedin: 'https://www.linkedin.com/in/abhirajsingh27/',
-  resume: 'https://docs.google.com/document/d/1J1XZJxQDIpVTbg-6P558JALkNK7vfE7u/edit?usp=sharing',
+  resume: 'https://docs.google.com/document/d/1MNLO8-Utx6-QG4e23H-zYVbwS6-jft4S/edit?usp=sharing',
 }
