@@ -201,7 +201,7 @@ export const experience = [
 export const education = [
   {
     title: 'B.Tech, Computer Science & Engineering (AI/ML)',
-    place: 'Polaris School of Technology',
+    place: 'Polaris School of Technology, Bengaluru',
     dates: '2025 to 2029',
     note: 'Coursework in Python, full-stack web development, data structures and algorithms, the mathematics of machine learning, and database systems.',
   },
