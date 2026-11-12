@@ -13,12 +13,29 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    slug: 'ems-voice-pcr',
+    title: '108 EMS: Voice PCR',
+    kicker: 'Voice AI / Healthcare',
+    description:
+      "A voice copilot for India's 108 ambulances. A live agent interviews the paramedic in Hindi or English, fills the patient care report, and reads back what it wrote. Every value links to the exact words it came from, and fixed rules, not the model, raise the alarms, like a drug the patient is allergic to.",
+    tech: ['React', 'FastAPI', 'WebSockets', 'Gnani STT/TTS', 'Groq'],
+    repo: 'https://github.com/abhiraj75/ems_voice_pcr',
+    demo: 'https://ems-voice-pcr.vercel.app',
+    stats: [
+      ['Field accuracy', '97%'],
+      ['Live agent', '92%'],
+      ['Critical alerts', '4/4'],
+    ],
+    sfx: 'TRANSMIT!',
+    bubble: "Say it out loud. I'll fill the form.",
+  },
+  {
     slug: 'debugx',
     title: 'DebugX',
     kicker: 'AI Tooling',
     description:
       "Practice problems that fight back. Runs your code, tells you where it broke and why, then walks the execution step by step. Tracks what you have actually retained with streaks and a heatmap, not just what you have clicked through.",
-    tech: ['Next.js', 'TypeScript', 'Python', 'FastAPI', 'MySQL'],
+    tech: ['Next.js', 'TypeScript', 'FastAPI', 'PostgreSQL', 'Gemini', 'Firebase'],
     repo: 'https://github.com/abhiraj75/DebugX',
     demo: 'https://debugxfrontend.vercel.app',
     sfx: 'COMPILE!',
@@ -47,28 +64,11 @@ export const projects: Project[] = [
     kicker: 'Coding Agents',
     description:
       "A coding agent that can't ship a fix it hasn't proven. You describe a change and it opens the issue, reproduces the bug with a failing check in a sandbox, makes the fix, and opens a PR with the evidence attached. Nothing merges until a human approves. It is tested against kora-store, a demo shop with a pricing bug planted for it to find.",
-    tech: ['TrueForge', 'GitHub API', 'Sandboxes', 'JavaScript'],
+    tech: ['TrueForge', 'GitHub MCP', 'Daytona', 'Agent Skills'],
     repo: 'https://github.com/abhiraj75/RedHanded',
     demo: null,
     sfx: 'GOTCHA!',
     bubble: 'Caught it. Proved it. Fixed it.',
-  },
-  {
-    slug: 'ems-voice-pcr',
-    title: '108 EMS: Voice PCR',
-    kicker: 'Voice AI / Healthcare',
-    description:
-      "A voice copilot for India's 108 ambulances. A live agent interviews the paramedic in Hindi or English, fills the patient care report, and reads back what it wrote. Every value links to the exact words it came from, and fixed rules, not the model, raise the alarms, like a drug the patient is allergic to.",
-    tech: ['React', 'FastAPI', 'WebSockets', 'Gnani STT/TTS', 'Groq'],
-    repo: 'https://github.com/abhiraj75/ems_voice_pcr',
-    demo: 'https://ems-voice-pcr.vercel.app',
-    stats: [
-      ['Field accuracy', '97%'],
-      ['Live agent', '92%'],
-      ['Critical alerts', '4/4'],
-    ],
-    sfx: 'TRANSMIT!',
-    bubble: "Say it out loud. I'll fill the form.",
   },
   {
     slug: 'saas-support-agent',
@@ -201,7 +201,7 @@ export const experience = [
 export const education = [
   {
     title: 'B.Tech, Computer Science & Engineering (AI/ML)',
-    place: 'Medhavi Skills University',
+    place: 'Polaris School of Technology',
     dates: '2025 to 2029',
     note: 'Coursework in Python, full-stack web development, data structures and algorithms, the mathematics of machine learning, and database systems.',
   },
