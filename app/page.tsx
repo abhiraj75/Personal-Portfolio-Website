@@ -2,7 +2,7 @@ import { Masthead } from '@/components/masthead'
 import { SiteNav } from '@/components/site-nav'
 import { ComicsPage } from '@/components/comics-page'
 import { PrintReveal } from '@/components/print-reveal'
-import { achievements, education, links, skills } from '@/lib/content'
+import { achievements, education, experience, links, skills } from '@/lib/content'
 
 function SectionHead({ title, page, standfirst }: { title: string; page: string; standfirst?: string }) {
   return (
@@ -42,15 +42,17 @@ export default function Page() {
               <div className="text-[17px] leading-relaxed sm:columns-2 sm:gap-8 [&>p]:mb-4">
                 <p className="first-letter:float-left first-letter:mr-2 first-letter:font-masthead first-letter:text-[4.2rem] first-letter:font-black first-letter:leading-[0.78] first-letter:text-press-red">
                   I am a B.Tech Computer Science student specialising in AI and ML, and I spend
-                  most of my time building. I pick unfamiliar domains on purpose, because that is
-                  where I learn fastest. It is how a Bitcoin transaction parser and a voice
-                  pipeline for ambulance handoffs ended up in the same year of work.
+                  most of my time building. Lately that means LLM systems that have to be right,
+                  not just fluent: an agent that fact-checks AI answers against a catalogue, one
+                  that won&rsquo;t ship a bug fix it hasn&rsquo;t proven, and, as an AI
+                  engineering intern at Aatra, a system that tracks tax-law changes across all 50
+                  US states before they reach a customer.
                 </p>
                 <p>
-                  Open source is where most of the real learning happens. I have contributed to
-                  Learning Equality, CircuitVerse, and Learning Unlimited, working on bug fixes,
-                  new features, refactoring, testing infrastructure, type systems, and language
-                  migrations. The code is only half of it. Finding the right issue, working with
+                  Open source is where most of the real learning happens. Most of my
+                  contributions are in Sugar Labs&rsquo; Music Blocks, with more in Learning
+                  Equality, Kiwix, krkn, RISC-V, and CircuitVerse.
+                  The code is only half of it. Finding the right issue, working with
                   maintainers, and shipping something a real community depends on is a different
                   skill from writing code alone.
                 </p>
@@ -112,20 +114,23 @@ export default function Page() {
         <section id="record" className="scroll-mt-16 px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
           <SectionHead title="The Record" page="Page 6" />
 
-          <div className="mt-8 space-y-6">
-            {education.map((entry) => (
-              <article key={entry.qualification} className="print-col border-l-[6px] border-ink pl-5">
-                <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1">
-                  <h3 className="font-masthead text-2xl font-bold leading-tight sm:text-3xl">
-                    {entry.qualification}
-                  </h3>
-                  <p className="kicker text-[11px] text-ink-soft">{entry.dates}</p>
-                </div>
-                <p className="kicker mt-1 text-xs text-press-red">{entry.place}</p>
-                <p className="mt-2 max-w-3xl text-[16px] leading-snug text-ink-soft">{entry.note}</p>
-              </article>
-            ))}
-          </div>
+          {([['Experience', experience], ['Education', education]] as const).map(([label, entries]) => (
+            <div key={label} className="mt-8 space-y-6">
+              <p className="print-col kicker text-[11px] text-press-blue">{label}</p>
+              {entries.map((entry) => (
+                <article key={entry.title} className="print-col border-l-[6px] border-ink pl-5">
+                  <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1">
+                    <h3 className="font-masthead text-2xl font-bold leading-tight sm:text-3xl">
+                      {entry.title}
+                    </h3>
+                    <p className="kicker text-[11px] text-ink-soft">{entry.dates}</p>
+                  </div>
+                  <p className="kicker mt-1 text-xs text-press-red">{entry.place}</p>
+                  <p className="mt-2 max-w-3xl text-[16px] leading-snug text-ink-soft">{entry.note}</p>
+                </article>
+              ))}
+            </div>
+          ))}
         </section>
 
         <section id="classifieds" className="scroll-mt-16 px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
@@ -144,9 +149,10 @@ export default function Page() {
                   Developer seeks hard problems.
                 </h3>
                 <p className="mt-4 max-w-xl text-[17px] leading-snug text-ink-soft">
-                  Abhiraj Singh, B.Tech Computer Science (AI/ML), Bengaluru. Builds full-stack
-                  applications, AI tooling, and protocol-level software. Open to conversations
-                  about internships, collaboration, and open-source work.
+                  Abhiraj Singh, B.Tech Computer Science (AI/ML), Bengaluru. Builds LLM agents,
+                  full-stack applications, and protocol-level software, most recently as an AI
+                  engineering intern at Aatra. Open to internships, collaboration, and
+                  open-source work.
                 </p>
 
                 <a

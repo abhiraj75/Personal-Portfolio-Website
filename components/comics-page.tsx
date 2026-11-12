@@ -128,7 +128,7 @@ export function ComicsPage() {
           The Comics
         </h2>
         <p className="kicker hidden text-[11px] text-ink-soft sm:block">
-          Nine strips &middot; Sunday Edition
+          Twelve strips &middot; Sunday Edition
         </p>
       </div>
 
@@ -145,7 +145,7 @@ export function ComicsPage() {
                 className="panel panel-ink relative flex flex-col lg:h-[70svh] lg:w-[min(74vw,505px)] lg:shrink-0"
               >
                 <div
-                  className={`relative flex h-40 shrink-0 items-center justify-center overflow-hidden border-b-[3px] border-ink lg:h-[38%] ${accent}`}
+                  className={`relative flex h-40 shrink-0 items-center justify-center overflow-hidden border-b-[3px] border-ink lg:h-auto lg:min-h-24 lg:shrink-[1000] lg:basis-[38%] ${accent}`}
                 >
                   <div
                     className="halftone absolute inset-0 text-ink opacity-40"
@@ -179,7 +179,7 @@ export function ComicsPage() {
                   />
                 </div>
 
-                <div className="flex flex-1 flex-col p-5">
+                <div className="flex flex-1 flex-col p-5 lg:min-h-0 lg:flex-auto">
                   <p className="kicker text-[11px] text-press-red">{p.kicker}</p>
                   <h3 className="mt-1 font-masthead text-2xl font-bold leading-tight sm:text-[28px]">
                     {p.title}

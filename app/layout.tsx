@@ -33,7 +33,7 @@ const anton = Anton({
 
 const title = 'Abhiraj Singh — The Sunday Edition'
 const description =
-  'Full-stack developer working across AI, Bitcoin protocol internals, and open source. B.Tech CS student, Bengaluru.'
+  'AI engineer and full-stack developer working across LLM agents, Bitcoin protocol internals, and open source. B.Tech CS (AI/ML) student, Bengaluru.'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://abhiraj-portfolio-website.vercel.app'),
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title,
-    description: 'Full-stack developer. AI, Bitcoin protocol internals, open source.',
+    description: 'AI engineer and full-stack developer. LLM agents, Bitcoin protocol internals, open source.',
     images: ['/og.jpg'],
   },
 }

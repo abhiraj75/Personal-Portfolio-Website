@@ -84,8 +84,8 @@ export function Masthead({ dateline }: { dateline: string }) {
               I build things that are harder than they need to be, on purpose.
             </h2>
             <p className="mt-4 max-w-xl text-[17px] leading-snug text-ink-soft">
-              Full-stack developer working across AI, Bitcoin protocol internals, and open
-              source. B.Tech Computer Science student in Bengaluru. I pick unfamiliar domains
+              AI engineer and full-stack developer working across LLM agents, Bitcoin protocol
+              internals, and open source. B.Tech Computer Science (AI/ML) student in Bengaluru. I pick unfamiliar domains
               deliberately, which is how a raw transaction parser and a voice pipeline for
               ambulance handoffs ended up in the same year of work.
             </p>

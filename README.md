@@ -16,7 +16,7 @@ shell and the projects are the comics page.
 
 ## The Comics Page
 
-The signature section. On desktop it pins and scrolls horizontally, revealing nine
+The signature section. On desktop it pins and scrolls horizontally, revealing twelve
 project panels left to right with a staggered assembly, one SFX stamp and one speech
 bubble per panel. Below 1024px the same panels stack vertically with no pinning.
 
